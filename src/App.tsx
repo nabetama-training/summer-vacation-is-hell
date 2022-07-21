@@ -23,13 +23,11 @@ function App() {
   const handleOnChangeStart = (e: React.ChangeEvent<HTMLInputElement>) => {
     const newStart = e.target.value
     setStart(newStart)
-    handleOnChangeCompleted({start: newStart, end})
   }
 
   const handleOnChangeEnd = (e: React.ChangeEvent<HTMLInputElement>) => {
     const newEnd = e.target.value
     setEnd(newEnd)
-    handleOnChangeCompleted({start, end: newEnd})
   }
 
   const handleOnChangeCompleted = ({start: start, end: end}: {start: string, end: string}) => {
@@ -49,6 +47,7 @@ function App() {
           value={start}
           onChange={e => {
             handleOnChangeStart(e)
+            handleOnChangeCompleted({start: e.target.value, end})
           }}
         />
 
@@ -60,6 +59,7 @@ function App() {
           value={end}
           onChange={e => {
             handleOnChangeEnd(e)
+            handleOnChangeCompleted({start, end: e.target.value})
           }}
         />
 

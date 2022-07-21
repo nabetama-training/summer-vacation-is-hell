@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/summer-vacation-is-hell/static/css/main.14eeb5d7.css",
-    "main.js": "/summer-vacation-is-hell/static/js/main.952b71b6.js",
+    "main.js": "/summer-vacation-is-hell/static/js/main.030b745e.js",
     "static/js/787.4058876a.chunk.js": "/summer-vacation-is-hell/static/js/787.4058876a.chunk.js",
     "index.html": "/summer-vacation-is-hell/index.html",
     "main.14eeb5d7.css.map": "/summer-vacation-is-hell/static/css/main.14eeb5d7.css.map",
-    "main.952b71b6.js.map": "/summer-vacation-is-hell/static/js/main.952b71b6.js.map",
+    "main.030b745e.js.map": "/summer-vacation-is-hell/static/js/main.030b745e.js.map",
     "787.4058876a.chunk.js.map": "/summer-vacation-is-hell/static/js/787.4058876a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.14eeb5d7.css",
-    "static/js/main.952b71b6.js"
+    "static/js/main.030b745e.js"
   ]
 }

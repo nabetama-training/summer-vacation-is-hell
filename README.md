@@ -1,5 +1,7 @@
 # Summer Vacation is HELL
 
+![](./assets/a.gif)
+
 Children are on summer vacation.
 
 Coronavirus outbreak.

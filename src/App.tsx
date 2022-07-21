@@ -7,6 +7,11 @@ import {delta} from "./libs/DateTimeDelta"
 
 const completedDays = (start: string): number => {
   let newCompletedDays = delta(start, DateTime.now().toFormat('yyyy-MM-dd'))
+
+  if (newCompletedDays < 0) {
+    return 0
+  }
+
   return newCompletedDays
 }
 

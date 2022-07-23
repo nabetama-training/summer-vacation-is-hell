@@ -41,7 +41,7 @@ function App() {
 
     <div className="App">
       <form>
-        夏休み開始日
+        夏休み始まり
         <input
           type="date"
           value={start}

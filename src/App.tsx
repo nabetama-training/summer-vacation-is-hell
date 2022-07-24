@@ -60,6 +60,7 @@ function App() {
             handleOnChangeStart(e);
             handleOnChangeCompleted({ start: e.target.value, end });
           }}
+          data-testid="start-date"
         />
         <br />
         夏休み終わり
@@ -70,6 +71,7 @@ function App() {
             handleOnChangeEnd(e);
             handleOnChangeCompleted({ start, end: e.target.value });
           }}
+          data-testid="end-date"
         />
       </form>
 

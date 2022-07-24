@@ -31,10 +31,4 @@ it("changes value when clicked", () => {
   expect(inputEndDate.value).toBe("2022-08-20");
 
   expect(screen.getByText("3%")).toBeInTheDocument;
-
-  fireEvent.change(inputStartDate, {
-    target: { value: "2022-07-22" },
-  });
-
-  expect(inputStartDate.value).toBe("2022-07-22");
 });

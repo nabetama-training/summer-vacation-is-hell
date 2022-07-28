@@ -77,10 +77,6 @@ function App() {
 
       <ProgressBar
         completed={Math.trunc(completedPer * 100)} // %なので100かける
-        // className="wrapper"
-        // barContainerClassName='container'
-        // completedClassName='barCompleted'
-        // labelClassName='label'
         maxCompleted={100}
       />
     </div>
